@@ -178,5 +178,5 @@ minEOL<-function(mat,prop) {
 #' @return minimax of the EOL 
 #' @export
 regretminimax<-function(mat) {
-  minimax(reflexMatrix(mat))
+  minimax(regretMatrix(mat))
 }
