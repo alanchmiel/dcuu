@@ -143,7 +143,7 @@ treeRollup <-function(mat,prop) {
 #' @return regret Matrix (matrix object)
 #' @export
 regretMatrix<-function(mat) {
-  abs(mat-t(matrix(colMaxs(mat),3,3)))
+  abs(mat-t(matrix(matrixStats::colMaxs(mat),3,3)))
 }
 
 #' EOL
