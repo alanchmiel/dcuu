@@ -38,54 +38,87 @@ The following are examples for all of the functions:
 
 ```{r}
 maximax(mat1)
+
+## [1] 10
+
+
 ```
 
 ```{r}
 maximin(mat1)
+
+## [1] 6
 ```
 
 ```{r}
 minimax(mat1)
+
+## [1] 4
 ```
 
 ```{r}
 emv(mat1,prop)
+
+## [1] 7.7
 ```
 
 ```{r}
 EVwPI(mat1,prop)
+
+## [1] 8.2
 ```
 
 
 ```{r}
 EVPI(mat1,prop)
+
+## [1] 0.5
 ```
 
 
 ```{r}
 alpha<-0.8
 hurwicz(mat1,alpha)
+
+## [1] 8.6
 ```
 
 
 ```{r}
 treeRollup(mat1,prop)
+
+##          [,1]
+## [1,] 6.283333
 ```
 
 ```{r}
 regretMatrix(mat1)
+
+##      [,1] [,2] [,3]
+## [1,]    0    1    3
+## [2,]    2    0    0
+## [3,]    6    4    2
 ```
 
 ```{r}
 EOL(mat1,prop)
+
+##      [,1]
+## [1,] 1.05
+## [2,] 0.50
+## [3,] 4.20
 ```
 
 
 ```{r}
 minEOL(mat1,prop)
+
+## [1] 0.5
 ```
 
 
 ```{r}
 regretminimax(mat1)
+
+## [1] 2
 ```
