@@ -1,2 +1,4 @@
-# dcuu
-R Library for decision making under uncertainty
+# dmuu
+R Library for decision making under uncertainty.
+
+
