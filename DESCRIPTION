@@ -1,0 +1,12 @@
+Package: dmuu
+Title: Provides functions for calculating Criteria for decision making under uncertainty. 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Alan", "Chmiel", , "alan.chmiel@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The Problem of Decision Making Under Uncertainty: The problem of decision making under uncertainty is to choose an action (or decision) among many different available actions which gives (possibly) maximum expected profit or maximum expected revenue or minimum expected losses or minimum expected costs as the case may be, under uncertain situations. For each you need to have a payoff matrix with States of Nature in Columns, and Alternatives in Rows. You will also need a vector for the probabilities where the length of the vector is equal to the number of the states of nature
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
